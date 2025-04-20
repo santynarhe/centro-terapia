@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> FisioSanar Centro de Terapia Integral</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="Logo del Centro de Terapia" style="height: 80px;">
+    <h1>FisioSanar Centro de Terapia Integral</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Nuestros Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>FisioSanar, Centro de terapia integral. Ofrece ayuda a las personas, a recuperar el movimiento y la fuerza de partes fundamentales del cuerpo después de una enfermedad o una lesión. En pacientes de edad avanzada, adulta y niños. Además contamos con un nuevo servicio de Fonoaudiología, Terapia de lenguaje.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <article>
+      <h3>Fisioterapia</h3>
+      <p>Tratamientos personalizados para mejorar tu movilidad y bienestar.</p>
+    </article>
+    <article>
+      <h3>Terapia de Lenguaje</h3>
+      <p>Apoyo para mejorar la comunicación en niños y adultos.</p>
+    </article>
+    <article>
+      <h3>Psicología</h3>
+      <p>Atención emocional y mental para todas las edades.</p>
+    </article>
+  </section>
+
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <p>Somos un equipo comprometido con tu bienestar integral. Conoce a nuestros profesionales y nuestra misión.</p>
+  </section>
+
+
+  <section id="reserva-cita">
+    <h2>Reserva tu Cita</h2>
+    <form id="formulario-reserva">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+  
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+  
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+  
+      <label for="fecha">Fecha de la cita:</label>
+      <input type="date" id="fecha" name="fecha" required>
+  
+      <label for="terapia">Tipo de terapia:</label>
+      <select id="terapia" name="terapia" required>
+        <option value="fisioterapia">Fisioterapia</option>
+        <option value="terapia-lenguaje">Terapia de Lenguaje</option>
+        <option value="psicologia">Psicología</option>
+      </select>
+  
+      <label for="comentarios">Comentarios adicionales (opcional):</label>
+      <textarea id="comentarios" name="comentarios"></textarea>
+  
+      <button type="submit">Reservar Cita</button>
+    </form>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 FisioSanar Centro de Terapia Integral. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
