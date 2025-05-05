@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://santynarhe.github.io/centro-terapia/sitemap.xml
