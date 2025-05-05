@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> FisioSanar Centro de Terapia Integral</title>
+  <title>FisioSanar | Centro de Terapia Integral en Girón y Santa Isabel</title>
+  <meta name="description" content="FisioSanar ofrece fisioterapia, terapia de lenguaje y atención psicológica especializada para niños, adultos y adultos mayores en Girón y Santa Isabel.">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
   <header>
-    <img src="img/logo.png" alt="Logo del Centro de Terapia" style="height: 80px;">
+    <img src="img/logo.png" alt="Logo de FisioSanar Centro de Terapia Integral" style="height: 80px;">
     <h1>FisioSanar Centro de Terapia Integral</h1>
     <nav>
       <ul>
@@ -21,62 +22,63 @@
     </nav>
   </header>
 
-  <section id="inicio">
-    <h2>Bienvenidos</h2>
-    <p>FisioSanar, Centro de terapia integral. Ofrece ayuda a las personas, a recuperar el movimiento y la fuerza de partes fundamentales del cuerpo después de una enfermedad o una lesión. En pacientes de edad avanzada, adulta y niños. Además contamos con un nuevo servicio de Fonoaudiología, Terapia de lenguaje.</p>
-  </section>
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos a FisioSanar</h2>
+      <p>FisioSanar, Centro de terapia integral, ayuda a las personas a recuperar el movimiento y la fuerza después de una enfermedad o lesión. Atendemos a adultos mayores, adultos y niños. Ahora también ofrecemos Fonoaudiología y Terapia de Lenguaje.</p>
+    </section>
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <article>
-      <h3>Fisioterapia</h3>
-      <p>Tratamientos personalizados para mejorar tu movilidad y bienestar.</p>
-    </article>
-    <article>
-      <h3>Terapia de Lenguaje</h3>
-      <p>Apoyo para mejorar la comunicación en niños y adultos.</p>
-    </article>
-    <article>
-      <h3>Psicología</h3>
-      <p>Atención emocional y mental para todas las edades.</p>
-    </article>
-  </section>
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <article>
+        <h3>Fisioterapia</h3>
+        <p>Tratamientos personalizados para mejorar tu movilidad y bienestar.</p>
+      </article>
+      <article>
+        <h3>Terapia de Lenguaje</h3>
+        <p>Apoyo para mejorar la comunicación en niños y adultos.</p>
+      </article>
+      <article>
+        <h3>Psicología</h3>
+        <p>Atención emocional y mental para todas las edades.</p>
+      </article>
+    </section>
 
-  <section id="nosotros">
-    <h2>Nosotros</h2>
-    <p>Somos un equipo comprometido con tu bienestar integral. Conoce a nuestros profesionales y nuestra misión.</p>
-  </section>
+    <section id="nosotros">
+      <h2>Nosotros</h2>
+      <p>Somos un equipo comprometido con tu bienestar integral. Conoce a nuestros profesionales y nuestra misión.</p>
+    </section>
 
+    <section id="reserva-cita">
+      <h2>Reserva tu Cita</h2>
+      <form id="formulario-reserva">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
 
-  <section id="reserva-cita">
-    <h2>Reserva tu Cita</h2>
-    <form id="formulario-reserva">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-  
-      <label for="correo">Correo electrónico:</label>
-      <input type="email" id="correo" name="correo" required>
-  
-      <label for="telefono">Teléfono:</label>
-      <input type="tel" id="telefono" name="telefono" required>
-  
-      <label for="fecha">Fecha de la cita:</label>
-      <input type="date" id="fecha" name="fecha" required>
-  
-      <label for="terapia">Tipo de terapia:</label>
-      <select id="terapia" name="terapia" required>
-        <option value="fisioterapia">Fisioterapia</option>
-        <option value="terapia-lenguaje">Terapia de Lenguaje</option>
-        <option value="psicologia">Psicología</option>
-      </select>
-  
-      <label for="comentarios">Comentarios adicionales (opcional):</label>
-      <textarea id="comentarios" name="comentarios"></textarea>
-  
-      <button type="submit">Reservar Cita</button>
-    </form>
-  </section>
-  
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="fecha">Fecha de la cita:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="terapia">Tipo de terapia:</label>
+        <select id="terapia" name="terapia" required>
+          <option value="fisioterapia">Fisioterapia</option>
+          <option value="terapia-lenguaje">Terapia de Lenguaje</option>
+          <option value="psicologia">Psicología</option>
+        </select>
+
+        <label for="comentarios">Comentarios adicionales (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Reservar Cita</button>
+        <div id="mensaje-exito" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 FisioSanar Centro de Terapia Integral. Todos los derechos reservados.</p>
